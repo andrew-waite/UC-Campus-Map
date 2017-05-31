@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="andrew.mobiletechnology_assignment1.MainMenu">
+    <item
+        android:id="@+id/uc_icon_logo"
+        android:orderInCategory="100"
+        android:title="Hello"
+        app:showAsAction="always"
+        android:icon="@mipmap/uc_logo">
+
+        <menu>
+            <item android:id="@+id/map_terrain_normal"
+                app:showAsAction="ifRoom"
+                android:title="Normal" />
+            <item android:id="@+id/map_terrain_hybrid"
+                app:showAsAction="ifRoom"
+                android:title="Hybird" />
+            <item android:id="@+id/map_terrain_satellite"
+                app:showAsAction="ifRoom"
+                android:title="Satellite" />
+            <item android:id="@+id/map_terrain_terrain"
+                app:showAsAction="ifRoom"
+                android:title="Terrain" />
+            <item android:id="@+id/map_terrain_none"
+                app:showAsAction="ifRoom"
+                android:title="None" />
+        </menu>
+    </item>
+</menu>
